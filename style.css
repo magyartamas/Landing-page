@@ -86,12 +86,20 @@
         display: flex;
         justify-content: center;
         gap: 20px;
+        
+    }
+
+    .section-1-pictures-container h4{
+        max-width: 80%;
+        text-align: center;
     }
 
     .section-1-pictures-container img{
         display: flex;        width:  100px;
     height: 100px;
     object-fit: cover;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
     }
     
 
