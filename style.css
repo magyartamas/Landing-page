@@ -154,9 +154,45 @@
         
     }
 
+    .section-3{
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+        
+        
+    }
+    .cta{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: #3882f6;
+        padding: 20px;
+        padding-left: 400px;
+        padding-right: 400px;
+        color: #e5e7eb;
+        border-radius: 8px;
+        
+        
+    }
+
+    
+
+    .section-3 .btn{
+        border: 1px solid #e5e7eb;
+        border-radius: 8px;
+        background-color: #3882f6;
+        padding: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+        
+    }
+
 
     footer{
         display: flex;
+        justify-content: center;
+        padding: 20px;
     }
     ul{
         list-style-type: none;
