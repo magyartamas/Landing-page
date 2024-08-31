@@ -27,6 +27,7 @@
         justify-content: space-between;
         padding: 10px 200px;
         padding-bottom: 100px;
+        padding-top: 30px;
         
     }
 
@@ -71,6 +72,40 @@
         display: flex;
         background-color: #f9faf8;
     }
+
+
+    .section-1 {
+        display: block;
+    }
+
+    .section-1 h1{
+        text-align: center;
+    }
+
+    .section-1-pictures-container{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .section-1-pictures-container img{
+        display: flex;        width:  100px;
+    height: 100px;
+    object-fit: cover;
+    }
+    
+
+
+    .section-1-pictures{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+
+
 
     .section-2{
         display: flex;
